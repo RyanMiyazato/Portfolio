@@ -46,6 +46,16 @@ body{
     justify-content: space-between;
 }
 
+.apresentation__content__model{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+ol{
+    list-style-type: none;
+}
+
 .apresentation__content{
     width: 615px;
     display: flex;
@@ -53,9 +63,16 @@ body{
     gap: 40px;
 }
 
+
 .apresentation__content__title{
     font-size: 36px;
     font-family: var(--principal-font);
+}
+
+.apresentation__content__title_subtitle{
+    font-size: 24px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
 }
 
 .apresentation__content__description{
@@ -69,6 +86,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentation__content__contact__link{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 32px;
 }
@@ -100,9 +123,38 @@ body{
     background-color:var(--hover-color);
 }
 
+.apresentation__content__list{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 16px;
+}
+
 .apresentation__img{
     width: 45%;
     height: 45%;
+}
+
+.apresentation__content__text{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.apresentation__content__subtitle{
+    font-family: var(--principal-font);
+    font-size: 24px;
+    font-weight: 400;
+}
+.apresentation__content__list{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 16px;
 }
 
 footer{
